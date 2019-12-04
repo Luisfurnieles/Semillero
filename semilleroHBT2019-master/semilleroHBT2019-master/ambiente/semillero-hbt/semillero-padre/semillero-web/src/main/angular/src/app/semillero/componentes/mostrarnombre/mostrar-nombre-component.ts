@@ -33,13 +33,7 @@ export class MostrarNombreComponent implements OnInit{
     public ver: string= this.nombre +" - "+ this.ciudad;
     
  
-    constructor(private router: Router) {
-
-    }
-
-    public mostrar( ) : void {
-        this.router.navigate(['bienvenida']);
-    }
+    
 
 }
 
