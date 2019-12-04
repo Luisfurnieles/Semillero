@@ -20,11 +20,16 @@ export class MostrarNombreComponent implements OnInit{
     ngOnInit(): void {
         throw new Error("Method not implemented.");
     }
-    
+    /**
+     * Atributos que contiene las variables con sus valores, las cuales se llaman en "mostrar-nombre-component.html" y se imprimen en "bienvenida-component.html"
+     */
 
     private nombre : string = "Luis Armando Furnieles";
     private ciudad : string= "Montería";
 
+    /**
+     * Atributo que contiene la concatenacion de las variables con sus valores
+     */
     public ver: string= this.nombre +" - "+ this.ciudad;
     
  
